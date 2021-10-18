@@ -7,6 +7,7 @@ import Register from './components/Register/Register';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
 import Home from './components/HomePage/Home/Home';
+import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route exact path="/register">
           <Register></Register>
+        </Route>
+        <Route exact path="/service/:id">
+          <ServiceDetails></ServiceDetails>
         </Route>
         <Route exact path="*">
           <NotFound></NotFound>

@@ -1,0 +1,11 @@
+.banner {
+    background: linear-gradient(to right, #0099bb8f 10%, #155799), 
+    url('../../../images/banner/banner1.jpg');;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-content {
+    height: 100vh;
+}

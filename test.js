@@ -1,0 +1,68 @@
+const services = [
+    {
+        id: 1,
+        title: "CROWNS & BRIDGES",
+        subTitle: "BROKEN, DAMAGED, AND MISSING TEETH",
+        img: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cc86f8c5168e9cb2be0d64a_AdobeStock_198830090.jpg",
+        description: "If you need a crown to repair a damaged tooth or a bridge to replace missing teeth, Dr. Griffin offers superior results as an expert prosthodontist. With her extensive training and experience creating crowns and bridges, you can always trust that your prosthesis will look and feel natural. Nobody but you and our team at Lake Bluff Dental will ever need to know that you have a crown or bridge!",
+        title1: "THE TREATMENT PROCESS",
+        subTitle1: "WHAT TO EXPECT",
+        img1: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cc871c35168e98628e0de41_AdobeStock_133444133.jpg",
+        description1: "To start the process, Dr. Griffin will prepare your tooth, creating a stable platform that can support the new dental crown. An impression of your tooth will then be taken to ensure that your custom crown is the perfect size and shape for your mouth. Once the crown is created, it will be permanently attached. If you are receiving a bridge, two crowns will be attached to healthy teeth on either side of the empty space, and a false tooth (also called a “pontic”) will be suspended in-between."
+    },
+    {
+        id: 2,
+        title: "VENEERS",
+        subTitle: "GAPPED, MISSHAPEN, AND DISCOLORED TEETH",
+        img: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc7a96d8a73b61d827ac04_AdobeStock_204356071.jpg",
+        description: "With veneers from Lake Shore Dental, patients with a wide range of cosmetic issues can enhance their smiles. Veneers are durable, thin shells of porcelain that are made to fit the front chewing surface of your teeth perfectly. Dr. Griffin is a skilled prosthodontist in Shorewood, and the veneers she creates for patients look and feel completely natural. They will cover up any imperfections and give you a shapely, even, and bright smile.",
+        title1: "THE BENEFITS OF VENEERS",
+        subTitle1: "ENHANCE YOUR SMILE",
+        img1: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc7a97dd66dcdb70724a12_AdobeStock_261591854.jpg",
+        description1: "Veneers offer many unique benefits for patients considering cosmetic dentistry treatments. The treatment process is minimally invasive, requires no oral surgery, and can typically be completed in just two appointments. No special care is required once the veneers are placed— simply brush, floss, and avoid chewing on non-food objects like ice, fingernails, and pens."
+    },
+    {
+        id: 3,
+        title: "FULL & PARTIAL DENTURES",
+        subTitle: "SOLUTIONS FOR MISSING TEETH",
+        img: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc7c3dd8a73b1e1027ce9b_AdobeStock_207624083.jpg",
+        description: "Whether your tooth was knocked-out in an accident or you suffer from a severe case of periodontal disease, dentures can restore the form and function of your smile and get you back to your daily life. Dr. Griffin is an experienced prosthodontist in Shorewood who offers judgment-free, compassionate care and beautiful results. The dentures created at Lake Bluff Dental are built to last and will look completely natural in your mouth.",
+        title1: "THE BENEFITS OF DENTURES",
+        subTitle1: "REMOVABLE REPLACEMENT TEETH",
+        img1: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc7c3cf262f9834b904c25_AdobeStock_122096311.jpg",
+        description1: "If you suffer from tooth loss, you know how debilitating it can be when it comes to everyday activities like chewing, smiling, and speaking. Dentures can restore your confidence and the function of your smile with a long-lasting prosthetic. They offer a less invasive treatment for patients looking to replace missing teeth without implant surgery."
+    },
+    {
+        id: 4,
+        title: "IMPLANT DENTURES & PARTIALS",
+        subTitle: "DENTURES THAT FEEL NATURAL",
+        img: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc7f5c5f4fbe7ef5cda65d_AdobeStock_169827945.jpg",
+        description: "Though traditional dentures restore life-changing aesthetics to your smile, patients are often uncomfortable with the way they shift and move in their mouth. Implant dentures and partials allow patients to replace missing teeth with a long-lasting, stable prosthesis that won’t shift. Dr. Griffin is an expert prosthodontist in Shorewood, and she’ll work tirelessly to give you a comfortable, confident implant denture that looks and feels completely natural.",
+        title1: "BENEFITS OF IMPLANT DENTURES",
+        subTitle1: "STABLE, DURABLE REPLACEMENTS",
+        img1: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc8027dd66dcb222725f96_AdobeStock_207148180(1).jpg",
+        description1: "Many patients choose implant dentures due to their affordability, longevity, and ease of use. Since implant dentures are stabilized, this means that they won’t shift in your mouth or fall out, and for the most part you can eat whatever you want while you wear them. With implant dentures, you can chew steak, enjoy corn on the cob, and chomp on an apple without worrying about your prosthesis slipping or falling out."
+    },
+    {
+        id: 5,
+        title: "IMPLANT RESTORATIONS",
+        subTitle: "BEAUTIFUL, NATURAL-LOOKING TOOTH REPLACEMENT",
+        img: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc8ed1e09fa5388c72f0ba_AdobeStock_71502762.jpg",
+        description: "No matter what led to your missing tooth, Dr. Griffin offers judgment-free care and beautifully-crafted restorations that will give you a seamless smile. Depending on the specifics of your case, you have a number of restoration options to choose from. Dr. Griffin will give you honest advice to help you make informed decisions about your oral care and empower you to move forward with optimal health and a confident smile.",
+        title1: "RESTORATIONS FROM A PROSTHODONTIST",
+        subTitle1: "THE BENEFITS OF",
+        img1: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5cdc8ed2fcbd7447d4784230_AdobeStock_123127657.jpg",
+        description1: "As a prosthodontist, Dr. Griffin is highly trained to create dental prostheses that are virtually indistinguishable from your natural teeth. Whether your implant restoration is a single crown, bridge, or a full denture, you can rest assured that Dr. Griffin will work tirelessly to give you a prosthesis that meets and exceeds your expectations. At Lake Bluff Dental, we value you and your smile, and nothing makes us happier than to give you a restoration you are proud of."
+    },
+    {
+        id: 6,
+        title: "TEETH WHITENING",
+        subTitle: "GET A BRIGHTER SMILE",
+        img: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5fc9691f254ff5269826369b_AdobeStock_194027055.jpg",
+        description: "At Lake Bluff Dental, Dr. Carolyn Griffin can help you restore your smile and remove stains caused by tobacco use, drinking beverages like coffee and tea, or the natural aging process. We offer professional take-home whitening and in-office whitening, which are ideal for patients of all ages. Learn more below, or contact us now for a cosmetic consultation in Shorewood.",
+        title1: "TAKE-HOME TEETH WHITENING",
+        subTitle1: "RESTORE YOUR SMILE AT HOME",
+        img1: "https://assets.website-files.com/5ca63f6c7e34be3842e18360/5fc9691f9bd92c7f69542503_AdobeStock_256222903.jpg",
+        description1: "With take-home teeth whitening, you can restore your smile in the comfort of your own home, and enjoy professional results without having to sit in the dentist’s chair. Take-home whitening is a more gradual process compared to in-office whitening, and is done over a period of several weeks. Some patients prefer this, since it’s less obvious that they have had their teeth whitened. You’ll come to our office to have a set of custom-built whitening trays made. Then, you’ll come back after a couple of weeks to pick up your trays and a set of whitening products, and to get instructions on how to use them from Dr. Griffin. Then, you’ll just follow her instructions to whiten your teeth in the comfort of your own home."
+    }
+]

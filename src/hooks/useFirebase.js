@@ -30,6 +30,10 @@ const useFirebase = () => {
 
     const regisrationSubmit = (e) => {
         e.preventDefault()
+        if (password.length < 6) {
+            setError("Password should be at least 6 characters")
+            return
+        }
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
@@ -88,6 +92,10 @@ const useFirebase = () => {
                 setUser(result.user)
             })
             .catch(error => {
+                if (error.message) {
+                    setError("wrong password")
+                    return
+                }
                 setError(error.message)
             })
     }

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const { loginSubmit, handleEmail, handlePassword, signInUsingGoogle, signInUsingGithub } = useAuth()
+    const { loginSubmit, handleEmail, handlePassword, signInUsingGoogle, signInUsingGithub, error } = useAuth()
     window.scrollTo(0, 0)
     return (
         <div className="container my-5 pb-3">
@@ -20,7 +20,7 @@ const Login = () => {
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" onBlur={handlePassword} placeholder="Password" />
                     </Form.Group>
-                    <p className="text-danger"></p>
+                    <p className="text-danger">{error}</p>
                     <button className="regular-btn" variant="primary" type="submit">
                         Login
                     </button>

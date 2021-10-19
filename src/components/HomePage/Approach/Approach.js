@@ -4,7 +4,7 @@ import './Approach.css'
 
 const Approach = () => {
     return (
-        <div className="container mt-5 py-5">
+        <div className="container my-5 py-5">
             <div className="row">
                 <div className="col-md-8 pe-5">
                     <p className="text-muted">Dental Care with a Difference</p>

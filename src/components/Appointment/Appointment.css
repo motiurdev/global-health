@@ -1,0 +1,12 @@
+.appointment {
+    background: url('../../images/appointment-bg-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.appointment-form {
+    background: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+}

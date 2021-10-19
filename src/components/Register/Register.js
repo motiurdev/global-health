@@ -17,7 +17,7 @@ const Register = () => {
     } = useAuth()
 
     return (
-        <div className="container mt-5">
+        <div className="container my-5 pb-3">
             <div className="w-50 mx-auto">
                 <Form onSubmit={regisrationSubmit}>
                     <h1 className="section-title text-center py-4">Registration Form</h1>

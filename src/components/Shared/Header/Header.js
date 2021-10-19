@@ -15,7 +15,7 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <NavLink className="navLink mt-2 menu-color" to="/home">Home</NavLink>
-                            <NavLink className="navLink mt-2 menu-color" to="/about">About Us</NavLink>
+                            <NavLink className="navLink mt-2 menu-color" to="/services">Services</NavLink>
                             {user?.email ?
                                 <button className="menu-btn me-2" onClick={logOut}>
                                     <img className="menu-img" src={user?.photoURL} alt="" />

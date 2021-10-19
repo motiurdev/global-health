@@ -7,7 +7,7 @@ const Login = () => {
     const { loginSubmit, handleEmail, handlePassword, signInUsingGoogle, signInUsingGithub } = useAuth()
     window.scrollTo(0, 0)
     return (
-        <div className="container mt-5">
+        <div className="container my-5 pb-3">
             <div className="w-50 mx-auto">
                 <Form onSubmit={loginSubmit}>
                     <h1 className="section-title text-center py-4">Login Form</h1>

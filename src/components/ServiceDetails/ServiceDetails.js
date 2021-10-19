@@ -16,9 +16,35 @@ const ServiceDetails = () => {
     return (
         <div>
             <div className="section-top">
-                <h1 className="d-flex justify-content-center align-items-center h-100 text-white">{matchService.title}</h1>
+                <h1 className="d-flex justify-content-center align-items-center h-100 text-white">{matchService?.title}</h1>
             </div>
+            <div className="me-3">
+                <div className="row align-items-center">
+                    <div className="col-md-6 me-0 pe-0">
+                        <div>
+                            <img src={matchService?.img} alt="" className="img-fluid" />
+                        </div>
+                    </div>
+                    <div className="col-md-6 px-5">
+                        <h5 className="mt-5 pt-5 section-title">{matchService?.subTitle}</h5>
+                        <h2 style={{ color: "#09425A" }} className="py-3">{matchService?.title}</h2>
+                        <p className="text-muted">{matchService?.description}</p>
+                    </div>
+                </div>
 
+                <div className="row align-items-center">
+                    <div className="col-md-6 px-5">
+                        <h5 className="mt-5 pt-5 section-title">{matchService?.subTitle1}</h5>
+                        <h2 style={{ color: "#09425A" }} className="py-3">{matchService?.title1}</h2>
+                        <p className="text-muted">{matchService?.description1}</p>
+                    </div>
+                    <div className="col-md-6 ps-0 ms-0">
+                        <div>
+                            <img src={matchService?.img1} alt="" className="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

@@ -8,6 +8,7 @@ import NotFound from './components/NotFound/NotFound';
 import Header from './components/Shared/Header/Header';
 import Home from './components/HomePage/Home/Home';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import Footer from './components/Shared/Footer/Footer';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <NotFound></NotFound>
         </Route>
       </Switch>
+      <Footer></Footer>
     </Router>
   );
 }

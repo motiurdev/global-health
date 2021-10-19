@@ -1,3 +1,11 @@
 .footer {
     background: url('../../../images/footer-bg.jpg');
 }
+
+
+.social-link {
+    background: #fff;
+    color: gray;
+    padding: 12px;
+    border-radius: 50%;
+}

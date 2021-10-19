@@ -12,6 +12,11 @@ const Footer = () => {
                         <p><span className="fw-bold">Location:</span> 35 West Dental Street</p>
                         <p><span className="fw-bold">Phone:</span> +088 123 654 987</p>
                         <p><span className="fw-bold">Email:</span> info@globalhealth.com</p>
+                        <nav className="nav">
+                            <Link className="nav-link active social-link me-3 text-muted" aria-current="page" to="/home"><i className="fab fa-facebook-f"></i></Link>
+                            <Link className="nav-link social-link me-3 text-muted" to="/home"><i className="fab fa-twitter"></i></Link>
+                            <Link className="nav-link social-link me-3 text-muted" to="/home"><i className="fab fa-linkedin-in"></i></Link>
+                        </nav>
                     </div>
                     <div className="col-md-3"></div>
                     <div className="col-md-3">
@@ -30,8 +35,8 @@ const Footer = () => {
                     <div className="col-md-3">
                         <h4 className="section-title">Newsletter</h4>
                         <p className="py-3 lh-lg">Best solution for your it startup business consecteturadipiscing elit.</p>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2" required />
+                        <div className="input-group mb-3">
+                            <input type="text" className="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2" required />
                             <button className="btn btn-info text-white" type="button" id="button-addon2">Button</button>
                         </div>
                     </div>

@@ -16,3 +16,24 @@ body{
     font-weight: 500;
     font-size: 18px;
 }
+
+.menu-btn {
+    background-color: #06a3da;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.menu-btn:hover {
+    background-color:#0385b4;
+    color: #fff;
+}
+
+.menu-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}

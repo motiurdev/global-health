@@ -13,6 +13,7 @@ const ServiceDetails = () => {
     }, [])
 
     const matchService = serviceDetail.find(singleService => singleService.id == id)
+    window.scrollTo(0, 0)
     return (
         <div>
             <div className="section-top">

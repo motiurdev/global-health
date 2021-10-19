@@ -1,0 +1,9 @@
+.card-border{
+    border-bottom: 2px solid #1dbfcc;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.card-border:hover {
+    transform: translateY(-10px);
+}

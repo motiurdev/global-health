@@ -14,17 +14,18 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <NavLink className="navLink mt-2" to="/home">Home</NavLink>
-                            <NavLink className="navLink mt-2" to="/about">About Us</NavLink>
+                            <NavLink className="navLink mt-2 menu-color" to="/home">Home</NavLink>
+                            <NavLink className="navLink mt-2 menu-color" to="/about">About Us</NavLink>
                             {user?.email ?
-                                <button className="menu-btn" onClick={logOut}>
+                                <button className="menu-btn me-2" onClick={logOut}>
                                     <img className="menu-img" src={user?.photoURL} alt="" />
                                     <span className="px-2">{user?.displayName}</span>
                                     <i class="fas fa-sign-out-alt"></i>
                                 </button>
                                 :
                                 <NavLink className="navLink menu-btn" to="/login">Login</NavLink>}
-                            <NavLink className="navLink menu-btn ms-2" to="/register">Registration</NavLink>
+                            <NavLink className="navLink menu-btn" to="/register">Registration</NavLink>
+                            <NavLink className="navLink menu-btn" to="/appointment">Appointment</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

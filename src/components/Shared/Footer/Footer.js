@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
                     <div className="col-md-3 mb-4">
                         <h4 className="section-title">Newsletter</h4>
-                        <p className="py-3 lh-lg">Best solution for your it startup business consecteturadipiscing elit.</p>
+                        <p className="py-3 lh-lg">subscribers to get free conversion optimization tips and resources</p>
                         <div className="input-group mb-3">
                             <input type="text" className="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2" required />
                             <button className="btn btn-info text-white" type="button" id="button-addon2">Button</button>

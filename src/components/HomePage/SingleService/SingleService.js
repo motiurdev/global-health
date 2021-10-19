@@ -9,7 +9,7 @@ const SingleService = (props) => {
             <div className="card h-100">
                 <img src={img} className="card-img-top card-img" alt="..." />
                 <div className="card-body">
-                    <h5 className="card-title">{title}</h5>
+                    <h5 className="card-title py-2">{title}</h5>
                     <p className="card-text text-muted">{description.slice(0, 100)}...</p>
                     <Link to={`service/${id}`}>
                         <button className="regular-btn">Details <i class="fas fa-angle-right"></i></button>

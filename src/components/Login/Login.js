@@ -1,10 +1,10 @@
 import React from 'react';
 import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const { loginSubmit, handleEmail, handlePassword, signInUsingGoogle, signInUsingGithub } = useFirebase()
+    const { loginSubmit, handleEmail, handlePassword, signInUsingGoogle, signInUsingGithub } = useAuth()
     return (
         <div className="container mt-5">
             <div className="w-50 mx-auto">

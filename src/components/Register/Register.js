@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 
 
@@ -14,7 +14,7 @@ const Register = () => {
         error,
         signInUsingGoogle,
         signInUsingGithub,
-    } = useFirebase()
+    } = useAuth()
 
     return (
         <div className="container mt-5">

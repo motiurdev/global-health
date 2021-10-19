@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
-import useFirebase from '../../../hooks/useFirebase';
+import useAuth from '../../../hooks/useAuth';
 import './Header.css'
 
 const Header = () => {
-    const { user, logOut } = useFirebase()
+    const { user, logOut } = useAuth();
     return (
         <div>
             <Navbar collapseOnSelect bg="light" expand="lg" sticky="top">
@@ -18,13 +18,13 @@ const Header = () => {
                             <NavLink className="navLink mt-2" to="/about">About Us</NavLink>
                             {user?.email ?
                                 <button className="menu-btn" onClick={logOut}>
-                                    <img className="menu-img" src={user.photoURL} alt="" />
+                                    <img className="menu-img" src={user?.photoURL} alt="" />
                                     <span className="px-2">{user?.displayName}</span>
                                     <i class="fas fa-sign-out-alt"></i>
                                 </button>
                                 :
                                 <NavLink className="navLink menu-btn" to="/login">Login</NavLink>}
-                            <NavLink className="navLink menu-btn ms-1" to="/register">Registration</NavLink>
+                            <NavLink className="navLink menu-btn ms-2" to="/register">Registration</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

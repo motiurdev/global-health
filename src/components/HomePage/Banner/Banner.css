@@ -18,4 +18,9 @@
     border: none;
     font-weight: 500;
     transition: 0.5s;
+    box-shadow: 1px 1px 3px 1px #54d3ff;
+}
+
+.banner-btn:hover{
+    background-color: #021e29;
 }

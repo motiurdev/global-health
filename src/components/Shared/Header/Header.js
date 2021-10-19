@@ -10,8 +10,11 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect bg="light" expand="lg" sticky="top">
                 <Container>
+                    {/* logo */}
                     <Navbar.Brand><Link to="/home" className="logo">Global Health</Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+                    {/* navbar */}
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <NavLink className="navLink mt-2 menu-color" to="/home">Home</NavLink>

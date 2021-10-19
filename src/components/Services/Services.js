@@ -4,11 +4,13 @@ import OurService from '../OurService/OurService';
 const Services = () => {
     const [ourServices, setOurServices] = useState([])
 
+    // fetch services data
     useEffect(() => {
         fetch('/services.json')
             .then(res => res.json())
             .then(data => setOurServices(data))
     }, [])
+    window.scrollTo(0, 0)
     return (
         <div className="py-5">
             <div className="container">

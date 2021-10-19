@@ -6,13 +6,16 @@ const ServiceDetails = () => {
     const { id } = useParams()
     const [serviceDetail, setServiceDetail] = useState([])
 
+    // fetch services data
     useEffect(() => {
         fetch('/services.json')
             .then(res => res.json())
             .then(data => setServiceDetail(data))
     }, [])
 
+    // match service
     const matchService = serviceDetail.find(singleService => singleService.id == id)
+
     window.scrollTo(0, 0)
     return (
         <div>

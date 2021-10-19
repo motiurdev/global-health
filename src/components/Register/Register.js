@@ -16,6 +16,7 @@ const Register = () => {
         signInUsingGithub,
     } = useAuth()
 
+    window.scrollTo(0, 0)
     return (
         <div className="container my-5 pb-3">
             <div className="w-50 mx-auto">

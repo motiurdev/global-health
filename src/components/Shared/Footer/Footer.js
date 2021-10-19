@@ -12,10 +12,13 @@ const Footer = () => {
                         <p><span className="fw-bold">Location:</span> 35 West Dental Street</p>
                         <p><span className="fw-bold">Phone:</span> +088 123 654 987</p>
                         <p><span className="fw-bold">Email:</span> info@globalhealth.com</p>
+                        {/* social link */}
                         <nav className="nav">
-                            <Link className="nav-link active social-link me-3 text-muted" aria-current="page" to="/home"><i className="fab fa-facebook-f"></i></Link>
-                            <Link className="nav-link social-link me-3 text-muted" to="/home"><i className="fab fa-twitter"></i></Link>
-                            <Link className="nav-link social-link me-3 text-muted" to="/home"><i className="fab fa-linkedin-in"></i></Link>
+                            <Link className="nav-link active social-link me-3 text-muted" aria-current="page" to={{ pathname: "https://www.facebook.com/" }}
+                                target='_blank'><i className="fab fa-facebook-f"></i></Link>
+                            <Link className="nav-link social-link me-3 text-muted" to={{ pathname: "https://twitter.com" }}
+                                target='_blank'><i className="fab fa-twitter"></i></Link>
+                            <Link className="nav-link social-link me-3 text-muted" to={{ pathname: "https://www.linkedin.com" }} target='_blank'><i className="fab fa-linkedin-in"></i></Link>
                         </nav>
                     </div>
                     <div className="col-md-3"></div>

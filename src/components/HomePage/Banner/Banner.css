@@ -11,7 +11,7 @@
 }
 
 .banner-btn {
-    background-color: #068bbb;
+    background-color: #0588b8;
     color: #fff;
     padding: 7px 25px;
     border-radius: 5px;
@@ -22,5 +22,5 @@
 }
 
 .banner-btn:hover{
-    background-color: #021e29;
+    background-color: #016d97;
 }

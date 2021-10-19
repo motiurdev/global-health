@@ -38,12 +38,16 @@ const Register = () => {
                     <button className="regular-btn" variant="primary" type="submit">
                         Register
                     </button>
-                    <p className="text-end">Already have an account?<Link to="/login">Sign In</Link></p>
+                    <div>
+                        <p className="text-end pt-2">Already have an account?<Link to="/login">Sign In</Link></p>
+                    </div>
                 </Form>
                 <div className="text-center mt-5">
                     <p className="text-muted fw-bold">Or</p>
-                    <button className="regular-btn google-sing" style={{ background: "#DB4437" }} onClick={signInUsingGoogle}><i class="fab fa-google"></i> Google Sign</button>
-                    <button className="regular-btn google-sing ms-3" style={{ background: "#2b3137" }} onClick={signInUsingGithub}><i class="fab fa-github"></i> Github Sign</button>
+                    <div className="d-flex justify-content-center">
+                        <button className="regular-btn google-sing" style={{ background: "#DB4437" }} onClick={signInUsingGoogle}><i class="fab fa-google"></i> Google Sign</button>
+                        <button className="regular-btn google-sing ms-3" style={{ background: "#2b3137" }} onClick={signInUsingGithub}><i class="fab fa-github"></i> Github Sign</button>
+                    </div>
 
                 </div>
             </div>

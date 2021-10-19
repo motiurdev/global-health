@@ -3,8 +3,9 @@ import { Form } from 'react-bootstrap';
 import './Appointment.css'
 
 const Appointment = () => {
+    window.scrollTo(0, 0)
     return (
-        <div className="appointment">
+        <div className="appointment py-4">
             <div className="container py-5">
                 <div className="row">
                     <div className="col-md-6">

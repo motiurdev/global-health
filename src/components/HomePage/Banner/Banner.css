@@ -3,9 +3,19 @@
     url('../../../images/banner/banner1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 90vh;
 }
 
 .banner-content {
     height: 100vh;
+}
+
+.banner-btn {
+    background-color: #068bbb;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 500;
+    transition: 0.5s;
 }

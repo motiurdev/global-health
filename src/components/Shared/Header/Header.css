@@ -9,6 +9,10 @@ body{
     font-weight: 500;
 }
 
+.logo:hover {
+    color: #009ABB;
+}
+
 .navLink {
     text-decoration: none;
     color: #000;

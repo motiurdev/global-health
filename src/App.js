@@ -10,6 +10,7 @@ import Home from './components/HomePage/Home/Home';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
 import Footer from './components/Shared/Footer/Footer';
 import AuthProvider from './context/AuthProvider';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -32,9 +33,9 @@ function App() {
           <Route exact path="/register">
             <Register></Register>
           </Route>
-          <Route exact path="/service/:id">
+          <PrivateRoute exact path="/service/:id">
             <ServiceDetails></ServiceDetails>
-          </Route>
+          </PrivateRoute>
           <Route exact path="*">
             <NotFound></NotFound>
           </Route>

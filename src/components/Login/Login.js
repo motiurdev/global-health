@@ -5,6 +5,7 @@ import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
     const { loginSubmit, handleEmail, handlePassword, signInUsingGoogle, signInUsingGithub } = useAuth()
+    window.scrollTo(0, 0)
     return (
         <div className="container mt-5">
             <div className="w-50 mx-auto">

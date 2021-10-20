@@ -22,7 +22,7 @@ const Header = () => {
                             {user?.email ?
                                 <button className="menu-btn me-2 my-1" onClick={logOut}>
                                     <img className="menu-img" src={user?.photoURL} alt="" />
-                                    <span className="px-2">{user?.displayName}</span>
+                                    <span className="px-2">{user?.displayName.slice(0, 13)}</span>
                                     <i class="fas fa-sign-out-alt"></i>
                                 </button>
                                 :

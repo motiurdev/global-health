@@ -22,20 +22,20 @@ const Appointment = () => {
                                 <h3 className="section-title py-4"><i class="far fa-calendar-alt"></i> Book Appointment</h3>
                                 <Form.Group className="mb-3" controlId="formBasicName">
                                     <Form.Label>Name</Form.Label>
-                                    <Form.Control type="text" placeholder="Name" />
+                                    <Form.Control type="text" placeholder="Name" required />
                                 </Form.Group>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Email address</Form.Label>
-                                    <Form.Control type="email" placeholder="Enter email" />
+                                    <Form.Control type="email" placeholder="Enter email" required />
                                 </Form.Group>
 
                                 <Form.Group className="mb-3" controlId="formBasicPhone">
                                     <Form.Label>Phone</Form.Label>
-                                    <Form.Control type="number" placeholder="Phone" />
+                                    <Form.Control type="number" placeholder="Phone" required />
                                 </Form.Group>
                                 <Form.Group className="mb-3" controlId="formBasicDate">
                                     <Form.Label>Date</Form.Label>
-                                    <Form.Control type="date" placeholder="Date" />
+                                    <Form.Control type="date" placeholder="Date" required />
                                 </Form.Group>
                                 <button className="regular-btn mt-2" variant="primary" type="submit" onClick={handleShow}>
                                     Submit
@@ -49,7 +49,7 @@ const Appointment = () => {
                             keyboard={false}
                         >
                             <Modal.Header closeButton>
-                                <Modal.Title>Book Successful</Modal.Title>
+                                <Modal.Title className="section-title">Book Successful</Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
                                 <p>Your great smile begins with a great dentist</p>

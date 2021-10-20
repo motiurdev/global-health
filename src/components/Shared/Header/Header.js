@@ -29,6 +29,7 @@ const Header = () => {
                                 <NavLink className="navLink menu-btn my-1" to="/login">Login</NavLink>}
                             <NavLink className="navLink menu-btn my-1" to="/register">Registration</NavLink>
                             <NavLink className="navLink menu-btn my-1" to="/appointment">Appointment</NavLink>
+                            <NavLink className="navLink menu-btn my-1" to="/contact">Contact</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -24,6 +24,6 @@ You can learn React & React Bootstrap from this project
   
 ## Screenshots
 
-![App Screenshot](https://i.ibb.co/bvvsFmS/Screenshot-2.png)
+![App Screenshot](https://i.ibb.co/7gkg18D/Screenshot-1.png)
 
   

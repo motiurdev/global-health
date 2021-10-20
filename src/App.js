@@ -10,8 +10,8 @@ import Footer from './components/Shared/Footer/Footer';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Appointment from './components/Appointment/Appointment';
-import Services from './components/Services/Services';
 import Contact from './components/Contact/Contact';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -25,8 +25,8 @@ function App() {
           <Route exact path="/home">
             <Home></Home>
           </Route>
-          <PrivateRoute exact path="/services">
-            <Services></Services>
+          <PrivateRoute exact path="/about">
+            <About></About>
           </PrivateRoute>
           <Route exact path="/login">
             <Login></Login>

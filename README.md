@@ -10,11 +10,14 @@ Link: https://healthcare-service-13a80.web.app/
   
 ## Website Features 
 
-- #### added login & Registration authentication ?
-- #### added dental clinic related services?
-- #### Book Appointment system ?
-- #### added Route system for going to another link ?
-- #### added Private Routes ?
+- #### Users need to login via Google or Github (also can create a new Account).
+- #### After login user can see service details
+- #### Build in Private Routes
+
+## Technologies Used
+```
+React js, React Router, Bootstrap, Private Route, Firebase Authentication.
+```
 
 You can learn React & React Bootstrap from this project
 ## Authors

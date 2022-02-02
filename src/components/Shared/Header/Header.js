@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import brandLogo from '../../../images/logo.png'
 import './Header.css'
 
 const Header = () => {
@@ -11,7 +12,9 @@ const Header = () => {
             <Navbar collapseOnSelect bg="light" expand="lg" sticky="top">
                 <Container>
                     {/* logo */}
-                    <Navbar.Brand><Link to="/home" className="logo">Global Health</Link></Navbar.Brand>
+                    <Navbar.Brand><Link to="/home" className="logo">
+                        <img src={brandLogo} width="100" alt="" />
+                    </Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                     {/* navbar */}

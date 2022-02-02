@@ -7,11 +7,18 @@
     color: #fff;
     padding: 7px 25px;
     border-radius: 5px;
+    display: block;
+    width: 100%;
     border: none;
     font-weight: 500;
     transition: 0.5s;
 }
 
 .regular-btn:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
+}
+
+.service-btn {
+    display: block;
+    text-decoration: none;
 }

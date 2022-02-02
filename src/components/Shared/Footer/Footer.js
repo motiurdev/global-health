@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import footerLogo from '../../../images/logo.png'
 import './Footer.css'
 
 const Footer = () => {
@@ -7,8 +8,10 @@ const Footer = () => {
         <div className="footer">
             <div className="container pt-5 pb-2">
                 <div className="row text-white">
-                    <div className="col-md-3 mb-4">
-                        <h4 className="section-title mb-4 fw-bold">Global Health</h4>
+                    <div className="col-md-6 mb-4">
+                        <h4 className="section-title mb-4 fw-bold">
+                            <img src={footerLogo} width="150" alt="" />
+                        </h4>
                         <p><span className="fw-bold">Location:</span> 35 West Dental Street</p>
                         <p><span className="fw-bold">Phone:</span> +088 123 654 987</p>
                         <p><span className="fw-bold">Email:</span> info@globalhealth.com</p>
@@ -21,7 +24,6 @@ const Footer = () => {
                             <Link className="nav-link social-link me-3 text-muted" to={{ pathname: "https://www.linkedin.com" }} target='_blank'><i className="fab fa-linkedin-in"></i></Link>
                         </nav>
                     </div>
-                    <div className="col-md-3"></div>
                     <div className="col-md-3 mb-4">
                         <h4 className="section-title mb-3 fw-bold">Our Services</h4>
                         <nav className="nav flex-column">

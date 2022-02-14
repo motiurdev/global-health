@@ -41,6 +41,7 @@ const useFirebase = () => {
                 updataName()
                 window.location.reload()
                 setError("")
+                alert("Register successful")
 
             })
             .catch(error => {
@@ -60,7 +61,7 @@ const useFirebase = () => {
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 setUser(result.user)
-                console.log(result.user);
+                alert("Login successful")
             })
             .catch(error => {
                 setError(error.message)
@@ -90,6 +91,7 @@ const useFirebase = () => {
         signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 setUser(result.user)
+                alert("Login successful")
             })
             .catch(error => {
                 if (error.message) {

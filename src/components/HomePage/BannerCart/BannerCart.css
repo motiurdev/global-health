@@ -1,0 +1,32 @@
+.row.banner-card {
+    margin-top: -80px;
+    color: #fff;
+}
+
+
+.banner-card-1,
+.banner-card-2,
+.banner-card-3 {
+    background: #008faf;
+    padding: 40px 0;
+}
+
+.banner-card-2{
+    background-color: #009ABB;
+}
+
+.banner-cart-btn{
+    border: 2px solid #fff;
+    background: transparent;
+    text-decoration: none;
+    padding: 8px 25px;
+    color: #fff;
+}
+
+.banner-cart-btn:hover{
+    border: 2px solid #fff;
+    background: #00a4c9;
+    padding: 8px 25px;
+    color: #fff;
+}
+
